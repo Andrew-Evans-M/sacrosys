@@ -1,0 +1,122 @@
+body{
+    background: #141414;
+    font-family: "Inter";
+}
+
+.mainCont .headerCont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.mainCont .headerCont h4{
+    margin-top: 0px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.mainCont .headerCont svg{
+    margin-top: 0px;
+}
+.mainCont .imgMainCont {
+    position: relative;
+    height: 434px;
+    max-width: 600px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width:320px) and (max-width:585px) {
+    .mainCont .imgMainCont{
+     margin-top: 0px;
+    }
+}
+
+.imgMainCont .laptopImage{
+    width: 100%;
+    position: absolute;
+    left: 12%;
+    opacity: 10px;
+    z-index: 1;
+}
+@media (min-width:320px) and (max-width:640px) {
+    .imgMainCont .laptopImage {
+     height: 100%;
+     left: 0%;
+    }
+}
+
+.imgMainCont .screenContent{
+    position: absolute;
+    left: 17%;
+    width: 85%;
+}
+@media (min-width:320px) and (max-width:585px) {
+    .imgMainCont .screenContent{
+    height: 100%;
+    }
+}
+.mainCont .inputTextCont{
+    display: flex;
+    justify-content: center;
+}
+.mainCont .inputTextCont p{
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 502px;
+}
+.mainCont .inputLoginCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.inputLoginCont .textFieldCont{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    background: #2F2F2F;
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.08);
+    margin-bottom: 15px;
+    width: 325px;
+}
+.inputLoginCont .textFieldCont .fieldSec .MuiInputBase-formControl{
+    display: flex;
+    height: 52px;
+    align-items: center;
+    border-radius: 10px;
+    background: #414141;
+}
+.inputLoginCont .textFieldCont .fieldSec label{
+    color: rgba(255, 255, 255, 0.25);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.inputLoginCont .textFieldCont .fieldBtn{
+    border-radius: 10px;
+    color: #fff;
+    padding: 12px;
+    background: var(--blk, #121212);
+    text-transform: capitalize;
+}
+.inputLoginCont .textFieldCont p{
+    color: rgba(248, 248, 248, 1);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,286 @@
+body {
+    background: #141414;
+    font-family: "Inter";
+}
+@font-face {
+    font-family: "Inter";
+    src: local("Inter"),
+      url("../fonts//Inter/static/Inter-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+ h4{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h5{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+p{
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.apexcharts-text  {
+    font-family: "Poppins";
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.mainContentHere{
+    height: 735px;
+}
+@media (min-width:1000px) and (max-width:1200px) {
+    .mainContentHere{
+        height: 1200px;
+    }
+}
+
+.mainHeadCont{
+    display: flex;
+    justify-content: space-between;
+}
+.mainHeadCont .headCont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    margin-top: 30px;
+}
+.mainHeadCont .headCont h3{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.mainHeadCont .headCont .navCont{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+@media (min-width:320px) and (max-width:992px) {
+    .mainHeadCont .headCont .navCont{
+       display: none;
+    }
+}
+.mainHeadCont .headCont .navCont .nav-pills{
+    gap: 25px;
+    --bs-nav-pills-link-active-bg:rgb(255, 255, 255);
+    --bs-nav-pills-link-active-color:rgb(0, 0, 0);
+    --bs-nav-link-color:rgb(255, 255, 255);
+}
+@media (min-width:992px) and (max-width:1200px) {
+    .mainHeadCont .headCont .navCont .nav-pills{
+        gap: 0px;
+    }
+}
+.mainHeadCont .headCont .navCont .nav-pills .navCont-items .navCont-link{
+    border-radius: 8px;
+}
+.mainHeadCont .something{
+    display: flex;
+    justify-content: start;
+}
+.mainHeadCont .headCont .headRightCont{
+    display: flex;
+    align-items: center;
+}
+.mainHeadCont .headCont .headRightCont p{
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 0px 0px 10px!important;
+}
+
+/* Sales.js */
+
+.cardCont{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background: rgba(20, 20, 20, 0.98);
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.08);
+    color: aliceblue;
+    height: 100px;
+    padding: 10px 20px;
+}
+
+.cardCont span{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.comparisonCardCont{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background: rgba(20, 20, 20, 0.98);
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.08);
+    color: aliceblue;
+    height: 205px;
+    padding: 10px 20px;
+}
+
+.comparisonCardCont h3{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.comparisonCardCont span{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.comparisonCardCont .compareProgressCont{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -15px;
+    
+}
+.comparisonCardCont .compareProgressCont h3{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* Day wise Comparison */
+
+.dayCompareCont{
+    display: flex;
+    height: 320px;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 12px;
+    background: #141414;
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.08);
+}
+.dayCompareCont h3{
+    display: flex;
+    text-align: right;
+    color: #fff;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.dayCompareCont .nav-pills{
+     color: white;
+    --bs-nav-pills-link-active-bg:rgb(255, 255, 255);
+    --bs-nav-pills-link-active-color:rgb(0, 0, 0);
+    --bs-nav-link-color:rgb(255, 255, 255);
+}
+.dayCompareCont .navCont-items{
+    border-radius: 6px;
+}
+.dayCompareCont .dayNavCont{
+    display: flex;
+    justify-content: end;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.dayCompareCont .mixedChart{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    overflow-y:hidden;
+    overflow-x: auto;
+    height: 300px;
+}
+
+.dayCompareCont .mixedChart .some {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.apexcharts-toolbar{
+    display: none!important;
+}
+.apexcharts-yaxis {
+    stroke-width: 0 !important;
+  }
+  .apexcharts-xaxis-tick{
+      display: none;
+  }
+  .apexcharts-point-annotations .apexcharts-hidden-element-shown {
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    background: rgba(252, 252, 2);
+  }
+  
+/* Collection Info */
+
+.collectCont{
+    display: flex;
+    justify-content: space-between;
+    height: 197px;
+    border-radius: 12px;
+    padding: 20px 30px;
+    color:#fff;
+    background: #141414;
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.08);
+}
+.collectCont  h3{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.collectCont .totalCont{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.apexcharts-legend{
+    display: none;
+}
+.productSellingCont{
+    height: 197px;
+    border-radius: 12px;
+    padding: 20px 30px;
+    color:#fff;
+    background: #141414;
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.08);
+    color: #fff;
+}
+.productSellingCont h3{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.productSellingCont .productGraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+}
+.productSellingCont .sellingGraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+
+}
